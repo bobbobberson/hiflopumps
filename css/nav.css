@@ -1,0 +1,149 @@
+.nav > li > a {
+	color: #f5f5f5;
+	border-radius: 4px;	
+}
+
+/*.nav > li > a,*/
+.nav > li > a:hover,
+.nav > li > a:active,
+.nav > li > a:focus {
+	color: #f5f5f5;
+	background-color: rgba(255,255,255,0.2);
+	/*background-color: green;*/
+}
+.nav>li,
+.nav>li:active,
+.nav>li:focus {
+	color: #333;
+	/*background-color: rgba(255,255,255,0.2);*/
+	/*background-color: pink;*/
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  /*background-color: #eee;*/
+  background-color: rgba(255,255,255,0.2);
+  border-color: #428bca;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  /*background-color: #eee;*/
+  background-color: rgba(255,255,255,0.2);
+}
+/*recent changes end here*/
+
+
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	color: #f5f5f5;
+	background-color: transparent;
+}
+.icon-bar {
+	background: #f5f5f5;
+}
+.navbar {margin-bottom: 0;}
+.navbar-toggle {
+	border: 1px solid #f5f5f5;
+}
+.sub-menu li {
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+.sub-menu li:last-child {
+	margin-bottom: 0;
+}
+
+.sub-menu a	{
+	color: #999;
+	text-decoration: none;
+}
+
+.sub-menu a:hover	{
+	color: #fff;	
+	background: rgba(255,255,255,0.1);	
+}	
+
+.current-menu-item > a, 
+.current-menu-parent > a {
+	background: rgba(255,255,255,0.1);	
+}
+
+.current-menu-parent li a {
+	background: inherit;
+}
+
+.current-menu-parent .current-menu-item a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.nav .glyphicon {
+	padding-right: 1em;
+	color: #4769A6;
+}
+.nav .glyphicon-user,
+.glyphicon-check {
+	color: green;
+}
+
+.nav .glyphicon-wrench,
+.nav .glyphicon-home {
+	color:orange;	
+	color:#F26532;
+	color:#D95B2D;
+}
+.nav .glyphicon {
+	/*background: #ccc;*/
+	/*background: #E9E9E9;*/
+	background: #F0F0F0;
+	border-radius: 50%;
+	padding: .25em;
+	box-shadow:  0px 0px 0px 1px rgba(175,175,175,0.5);
+	/*border: 1px solid #CCC;*/
+}
+
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+	/*background: #e3e3e3;*/
+	background: linear-gradient(90deg, rgba(71,105,166, 0.15), rgba(71,105,166,0.5) 45% , #013281);
+	/*outline: 1px solid #bbb;*/
+	box-shadow: inset -2px 0px 1px 0px #555;
+	/*color: #232323;*/
+}
+.navbar-header {
+	/*outline: 1px dotted green;*/
+	height: 44px;
+	/*padding: 0;*/
+	/*margin: 0;*/
+}
+.navbar-brand {
+	padding: 0;
+	margin: 2px 4px 2px 15px ;
+	/*outline: 1px dotted pink;	*/
+	height: 40px;
+}
+.navbar-toggle {
+	margin: 5px 15px 0px 0px;
+}
+/*#searchform,
+#search-container,
+.search-box,
+.search-box-wrapper,
+.input-group,*/
+#s {
+	/*border-radius: 4px;*/
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	overflow:hidden;
+}
+.search-box-wrapper {
+	padding-top: 9px;
+}
+
